@@ -1,0 +1,11 @@
+#include <stdio.h>
+int jaibalaya(){
+    printf("SURAJ\n");
+    printf("RACHAN\n");
+    printf("RCB\n");
+}
+int main()
+{
+    jaibalaya();
+}
+
