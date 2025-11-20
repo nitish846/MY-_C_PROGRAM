@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char string[100];
+    char str[100];
+    printf("entre the name \n");
+    scanf("%s",& string);
+    printf("enter the 2nd number \n");
+    scanf("%s",&str);
+    strcat(string,str);
+    printf("emetged string:%s\n", string);
+}
