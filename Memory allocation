@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+    int *p;
+    p=(int*)malloc(sizeof(int));
+    printf("enter the value of p: ");
+    scanf("%d",p);
+    free(p);
+    printf("value after free:%d\n",p);
+}
+
